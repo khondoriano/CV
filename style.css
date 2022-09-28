@@ -1,0 +1,108 @@
+body{
+	background-color: black;
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	height: 25%;
+	width: 100%;
+	background-color: green;
+	display: flex;
+}
+
+.imgCV{
+	background-color: #d3d3d3;
+}
+
+.dadosCV{
+	background-color:#d3d3d3;
+}
+
+.nomeCV{
+	padding: 70px 0 0 0;
+	font-family:Helvetica;
+	font-weight: bold;
+}
+
+.funcaoCV{
+	font-family:Helvetica;
+}
+
+.contatosCV{
+	background-color:#d3d3d3;
+	
+}
+
+.container img {
+    max-width:75px;
+    max-height:75px;
+    width: auto;
+    height: auto;
+}
+
+nav{
+	height: 4%;
+	width: 100%;
+	background-color: #00008b;
+	display: flex;
+}
+
+a:link {
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-size: 22px;
+    font-family:Helvetica;
+    padding:10px;
+    color: white;
+}
+
+a:hover {
+	color: pink;
+}
+  
+section{
+	height: 60%;
+	width: 100%;
+	background-color: white;
+}
+
+article{
+	height:100%;
+	width:100%;
+	display: flex;
+}
+
+.tituloCV{
+	height:10%;
+	background-color: black;
+}
+
+.textoTituloCV{
+	color:white;
+	font-family:Helvetica;
+	text-align: left;
+	font-size: 27px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.nomeTituloCV{
+	font-family: Helvetica;
+	text-align: left;
+	font-size: 27px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.textoCV{
+	font-family: Helvetica;
+	text-align: justify;
+	font-size: 23px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
